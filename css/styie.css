@@ -108,7 +108,6 @@ body {
     display: flex;
 }
 .menu__item {
-
 }
 .menu__item:not(:last-child) {
     margin: 0px 21px 0px 0px;
@@ -116,7 +115,7 @@ body {
 .menu__link {
     color: #737373;
     font-weight: 600;
-    font-height:calc(24 / 14 * 100%);
+    line-height:calc(24 / 14 * 100%);
 }
 @media (max-width: 479px) {
     .menu__link {
